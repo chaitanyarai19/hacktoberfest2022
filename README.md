@@ -9,9 +9,9 @@
 
  
 
-<h4> You can make folders of programming languages and also you can contribute in the repo's below.</h4>
+<h4> </h4>
 
-<h4> Feel free to contribute to this repo by creating and editing little programs in any programming language and make different folders for the code you want to contribute. </h4>
+<h4>  </h4>
 
 <br>
 
