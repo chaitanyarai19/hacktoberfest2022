@@ -4,13 +4,13 @@
              <div class="mod-register">
                  <h3 class="rs title-mod">Hello pretty! Welcome to Couponday.com</h3>
                  <div class="wrap-form-reg clearfix">
-                     <form action="#">
+                     <form id="login" type="POST">
                          <div class="left-form">
                              <label class="wrap-txt" for="sys_email">
-                                 <input class="input-txt" id="sys_email" type="email" placeholder="you@mail.com">
+                                 <input class="input-txt" id="sys_email" name="email" type="email" placeholder="you@mail.com">
                              </label>
                              <label class="wrap-txt" for="sys_pass">
-                                 <input class="input-txt" id="sys_pass" type="password" placeholder="password please!">
+                                 <input class="input-txt" id="sys_pass" name="password" type="password" placeholder="password please!">
                              </label>
                              <label class="wrap-check" for="sys_chk_news">
                                  <input id="sys_chk_news" class="input-chk" type="checkbox"> Remember me

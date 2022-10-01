@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <header class="mod-header">
     <div class="grid_frame">
         <div class="container_grid clearfix">
@@ -8,7 +9,13 @@
                             <img src="images/logo.png" alt="$SITE_NAME" />
                         </a>
                     </h1>
-                    <a id="sys_head_login" class="btn btn-green type-login btn-login" href="#">Login</a>
+                    <?php
+                    if (!isset($_SESSION['email'])) {
+                        echo '<a id="sys_head_login" class="btn btn-green type-login btn-login" href="#">Login</a>';
+                    }else{
+                        echo '<a class="btn btn-green type-login btn-login" href="logout.php">Logout</a>';
+                    }
+                    ?>
                     <nav class="main-nav">
                         <ul id="main-menu" class="nav nav-horizontal clearfix">
                             <li class="active">
@@ -46,7 +53,11 @@
             </div>
         </div>
     </div>
-    <?php include_once "login_signup.php" ;?>
+    <?php
+    if (!isset($_SESSION['email'])) {
+        include_once "login_signup.php";
+    }
+    ?>
 </header>
 <!--end: header.mod-header -->
 <nav id="mp-menu" class="mp-menu alternate-menu">
