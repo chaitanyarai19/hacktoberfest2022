@@ -1,4 +1,5 @@
 <?php include_once "component/topbar.php"; ?>
+
 <div class="top-area">
     <div class="mod-head-slide">
         <div class="grid_frame">
