@@ -3,6 +3,7 @@
 </div>
 
 <?php include_once "script.php"; ?>
+<script src="src/ajax/register.js"></script>
 </body>
 
 </html>
