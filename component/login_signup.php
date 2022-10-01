@@ -43,13 +43,13 @@
                  <h3 class="rs title-mod">Hello pretty! Welcome to Couponday.com</h3>
                  <div class="desc-reg">Sign up for free and get exclusive access to members-only savings, rewards and special promotions from Coupons.com. Enter in an email and a password or sign up with Facebook.</div>
                  <div class="wrap-form-reg clearfix">
-                     <form action="#">
+                     <form id="register" type="POST">
                          <div class="left-form">
                              <label class="wrap-txt" for="sys_email_reg">
-                                 <input class="input-txt" id="sys_email_reg" type="email" placeholder="you@mail.com" />
+                                 <input class="input-txt" name="email" id="sys_email_reg" type="email" placeholder="you@mail.com" />
                              </label>
                              <label class="wrap-txt" for="sys_pass_reg">
-                                 <input class="input-txt" id="sys_pass_reg" type="password" placeholder="password please!" />
+                                 <input class="input-txt" name="password" id="sys_pass_reg" type="password" placeholder="password please!" />
                              </label>
                              <label class="wrap-check" for="sys_chk_news_reg">
                                  <input id="sys_chk_news_reg" class="input-chk" type="checkbox" /> Send me the weekly Couponday.com’s offers.
@@ -80,7 +80,7 @@
                      </a>
                  </p>
              </div>
-             <!--end: Register panel -->
+              <!--end: Register panel -->
          </div>
          <div id="sys_paging_state" class="paging-state">
              <i class="active"></i>

@@ -9,11 +9,4 @@
 <script type="text/javascript" src="js/mlpushmenu.js"></script>
 
 <script type="text/javascript" src="js/script.js"></script>
-
-<!--[if lte IE 9]>
-<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-<script type="text/javascript" src="js/create.placeholder.js"></script>
-<![endif]-->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="js/ie8.js"></script>
-<![endif]-->
+<script type="text/javascript" src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
