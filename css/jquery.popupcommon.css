@@ -1,0 +1,57 @@
+/*by fb.com/hoangnm89 */
+.popup-common{
+    display: none;
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index:10000;
+}
+.popup-common .overlay-bl-bg{
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    filter: alpha(Opacity = 60);
+}
+.popup-common .pop-content{
+    position:absolute;
+    top:40px;
+    left: 235px;
+    width:700px;
+}
+.pop-content .opacity-border{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: #000000;
+    opacity: 0.4;
+    filter: alpha(Opacity = 40);
+}
+.pop-content .wrap-content{
+    position:relative;
+}
+.pop-content .wrap-content .main-content{
+    background: #FFF;
+    margin: 7px;
+}
+.pop-content .wrap-content .main-content.view-media{
+    line-height: 0;
+}
+.popup-common .iClosePopup{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.popup-common .closePopup{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+}

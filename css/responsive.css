@@ -1,0 +1,496 @@
+/*.alert-w{position: fixed;z-index: 9999999;width: 30px;height: 30px;background: #FFF;top:200px;left: 10px;border: 4px solid darkred;display: block;}*/
+/*.container-page{overflow: visible}*/
+/*.mp-menu{display: none}*/
+
+@media screen and (max-device-width:  1200px), screen and (max-width:  1200px) {
+    .flexslider.head-slide .flex-direction-nav .flex-next{right: 15px;opacity: 1}
+    .flexslider.head-slide .flex-direction-nav .flex-prev{left: 15px;opacity: 1}
+}
+@media screen and (max-device-width:  1024px), screen and (max-width:  1024px) {
+    .alert-w{background: goldenrod}
+    .mod-email-newsletter .wrap-email{
+        width: 50%;
+    }
+    .mod-brand-detail-3 .wrap-rate-score{
+        float: none;
+        display: block;
+        margin-left: 41px;
+        padding-top: 3px;
+    }
+}
+
+@media screen and (max-device-width:  979px), screen and (max-width:  979px) {
+    .alert-w{background: blue}
+    .mod-header .btn-login,
+    #main-menu{
+        display: none;
+    }
+    .btn-toogle-res-menu,
+    .mp-menu{
+        display: block;
+    }
+    .mod-filter .lbl-search{
+        width: 48%;
+        margin: 0 2% 12px 0;
+    }
+    .mod-filter .select-cate{
+        width: 48%;
+        margin: 0 0 12px 2%;
+    }
+    .select-cate .show-val,.select-cate .dropdown-cate{
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .mod-filter .range-days-left{
+        width: 50%;
+        margin: 0;
+    }
+    .mod-filter .btn-apply-filter{
+        width: 48%;
+    }
+
+    .coupon-item .coupon-content{
+        padding: 13px 12px;
+    }
+    .coupon-item .coupon-desc{
+        height: 80px;
+    }
+    .mod-email-newsletter .left-lbl{
+        font-size: 85%;
+    }
+    .mod-email-newsletter .wrap-email{
+        width: 42%;
+        margin-left: 10%;
+    }
+    .mod-coupon-detail .right-social{
+        clear: left;
+        float: none;
+        padding-top: 6px;
+    }
+    .coupons-code-item .brand-logo{
+        width: 120px;
+        margin-right: 15px;
+    }
+    .coupons-code-item .center-img{
+        height: 120px;
+    }
+    .coupons-code-item .bottom-action .btn-view-coupon{
+        width: auto;
+    }
+    .coupons-code-item.right-action{
+        padding: 12px;
+    }
+    .coupons-code-item.right-action .right-content{
+        padding-right: 180px;
+    }
+    .coupons-code-item.right-action .bottom-action{
+        width: 130px;
+    }
+    .coupons-code-item.right-action .bottom-action .btn-view-coupon{
+        left: 12%;
+    }
+    .mod-grp-coupon .brand-top-info .grid_7{
+        width: 47.22222222222222%;
+    }
+    .mod-grp-coupon .brand-top-info .grid_2{
+        width: 22.22222222222222%;
+    }
+    .mod-grp-coupon .brand-top-info .brand-desc{
+        padding-right: 10px;
+    }
+    .mod-brand-detail-2 .wrap-rate-score{
+        float: none;
+        display: block;
+    }
+    .mod-brand-detail-3 .brand-top-info > .grid_9{width: 55.55555555555556%;}
+    .mod-brand-detail-3 .brand-top-info > .grid_3{width: 38.88888888888889%;}
+    .mod-brand-detail-3 .wrap-rate-score{
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+    .mod-brand-detail-4 .brand-desc{
+        width: 38.57142857142857%;
+    }
+    .mod-brand-detail-4 .right-counter{
+        width: 32.85714285714286%;
+    }
+    .mod-brand-detail-5 .brand-top-info > .grid_3{width: 30.55555555555556%;}
+    .mod-brand-detail-5 .brand-top-info > .grid_9{width: 63.88888888888889%;}
+    .mod-blog-detail .left-title{
+        width: 75%;
+    }
+    .mod-blog-detail .right-date{
+        width: 20%;
+    }
+}
+@media screen and (max-device-width:  767px), screen and (max-width:  767px) {
+    .alert-w{background: red}
+    .range-days-left .filter-days{
+        width: 40%;
+    }
+    .coupon-item{
+        width: 47.22222222222222%;
+    }
+    .coupon-item .coupon-desc{
+        height: 65px;
+    }
+    .mod-email-newsletter .left-lbl{
+        margin-bottom: 10px;
+    }
+    .mod-email-newsletter .wrap-email{
+        float: none;
+        clear: both;
+        margin: 0 18px 10px;
+        width: auto;
+    }
+    .mod-email-newsletter .btn-submit-email{
+        width: 140px;
+        margin: 0 0 10px 18px;
+    }
+    .brand-item{
+        width: 47.22222222222222%;
+    }
+    .mod-footer .footer-top{
+        padding-bottom: 40px;
+    }
+    .mod-footer .footer-top .grid_3{
+        width: 47.22222222222222%;
+        padding-bottom: 30px;
+    }
+    .mod-footer .footer-top .grid_3:nth-child(2n+1){
+        clear: left;
+    }
+    .mod-footer .foot-copyright{
+        padding: 20px 10px;
+    }
+    .foot-copyright .left-link,
+    .foot-copyright .copyright{
+        width: 100%;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+    .mod-coupon-detail{
+        padding-bottom: 20px;
+    }
+    .mod-coupon-detail > .grid_4{
+        width: 38.88888888888889%;
+    }
+    .mod-coupon-detail > .grid_5{
+        width: 55.55555555555556%;
+    }
+    .mod-coupon-detail > .grid_3{
+        width: 97.22222222222222%;
+    }
+    .mod-coupon-detail .brand-info{
+        margin-top: 10px;
+    }
+    .mod-coupon-detail .btn-take-coupon{
+        width: auto;
+        padding: 6px 15px 7px;
+    }
+    .layout-2cols > .content,
+    .layout-2cols > .sidebar{
+        width: 97.22222222222222%;
+        padding-bottom: 50px;
+    }
+    .coupons-code-item .bottom-action{
+        font-size: 80%;
+    }
+    .coupons-code-item.right-action .bottom-action{
+        font-size:100%;
+    }
+    .mod-brand-alphabetical .link-alpha-link .grid_3{
+        width: 47.22222222222222%;
+    }
+    .mod-grp-coupon .wrap-for-res{
+        float: left;
+        width: 47.22222222222222%;
+        margin-left: 1.388888888888889%;
+        margin-right: 1.388888888888889%;
+    }
+    .mod-grp-coupon .brand-top-info .grid_3,
+    .mod-grp-coupon .brand-top-info .grid_2{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .mod-grp-coupon .brand-top-info .brand-logo{
+        margin-bottom: 20px;
+    }
+    .mod-brand-detail-2 .wrap-left-info{
+        width: 97.22222222222222%;
+    }
+    .mod-brand-detail-2 .brand-info-right{
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+        left: 0;
+        top: 0;
+    }
+
+    .mod-brand-detail-3 .brand-top-info > .grid_9,
+    .mod-brand-detail-3 .brand-top-info > .grid_3{width: 97.22222222222222%;}
+    .mod-brand-detail-3 .wrap-rate-score{
+        display: inline-block;
+        float: none;
+        margin: 0 0 0 10px;
+    }
+    .mod-brand-detail-4 .brand-logo{
+        position: static;
+        width: 100%;
+        padding: 16px 0;
+    }
+    .mod-brand-detail-4 .right-counter{
+        float: none;
+        width: 100%;
+        clear: left;
+    }
+    .mod-brand-detail-4 .brand-desc{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .mod-brand-detail-4 .right-counter .wrap-content{
+        padding: 10px;
+    }
+    .mod-brand-detail-5 .brand-top-info > .grid_3,
+    .mod-brand-detail-5 .brand-top-info > .grid_9{width: 47.22222222222222%;}
+    .mod-register{
+        width: auto;
+        margin: 55px 1.3888889% 0 1.3888889%;
+    }
+    .mod-register .grp-connect .btn-flat{
+        display: block;
+        width: auto;
+    }
+    .mod-register .grp-connect .btn-flat.fb{
+        margin: 0 0 10px 0;
+    }
+    .mod-register .left-form,
+    .mod-register .right-connect,
+    .mod-register .right-create-acc{
+        width: 45%;
+    }
+    .mod-register .left-form .wrap-check .lost-pass{
+        display: block;
+        position: static;
+        padding-top: 5px;
+    }
+    .coupons-code-item.grid_6{
+        width: 97.22222222222222%;
+    }
+}
+@media screen and (max-device-width:  480px), screen and (max-width:  480px) {
+    .alert-w{background: green}
+
+    .mod-filter .lbl-search,
+    .mod-filter .select-cate,
+    .mod-filter .range-days-left{
+        width: 100%;
+        margin: 0 0 10px 0 ;
+    }
+    .mod-filter .btn-apply-filter{
+        width: 100%;
+    }
+    .range-days-left .filter-days{
+        width: 55%;
+    }
+    .mod-head-slide .wrap-slide{
+        padding: 30px 6px 40px;
+    }
+    .flexslider.head-slide .flex-control-nav{
+        bottom: -30px;
+    }
+    .flexslider.head-slide .flex-direction-nav .flex-prev,
+    .flexslider.head-slide .flex-direction-nav .flex-next{
+        width: 24px;
+        height: 24px;
+        background: #fff;
+        border-radius: 50%;
+        opacity: 0.9;
+        top: 55%;
+    }
+    .flexslider.head-slide .flex-direction-nav a:before{
+        background: url("../images/icon.png") no-repeat -179px 0;
+        display: inline-block;
+        width: 7px;
+        height: 12px;
+        margin: 6px 0 6px 7px;
+    }
+    .flexslider.head-slide .flex-direction-nav a.flex-next:before{
+        background-position: -186px 0;
+        margin: 6px 7px 6px 0;
+    }
+    .flexslider.head-slide .flex-direction-nav .flex-next{right: 8px}
+    .flexslider.head-slide .flex-direction-nav .flex-prev{left: 8px}
+
+    .coupon-item{
+        width: 97.22222222222222%;
+    }
+    .mod-grp-coupon .btn.btn-load-more{
+        width: 80.55555555555556%;
+    }
+    .brand-item{
+        width: 97.22222222222222%;
+    }
+    .block .title-block.has-link{
+        font-size: 1.546154em;
+    }
+    .block .title-block .link-right{
+        font-size: 0.566667em;
+    }
+    .block .title-block .link-right .pick-right{
+        top: 10px;
+        border-width: 5px 0 5px 5px;
+    }
+    .mod-footer .footer-top .grid_3{
+        width: 97.22222222222222%;
+    }
+    .block .wrap-tab{
+        font-size: 75%;
+    }
+    .mod-coupon-detail > .grid_4,
+    .mod-coupon-detail > .grid_5,
+    .mod-coupon-detail > .grid_3{
+        width: 97.22222222222222%;
+    }
+    .mod-coupon-detail .wrap-thumb{
+        margin-bottom: 20px;
+    }
+    .coupons-code-item .right-content{
+        padding-bottom: 80px;
+    }
+    .coupons-code-item .bottom-action{
+        font-size: 100%;
+    }
+    .coupons-code-item .left-vote,
+    .coupons-code-item .bottom-action .btn-view-coupon{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .coupons-code-item .left-vote{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .coupons-code-item .brand-logo{
+        float: none;
+        margin: 0 auto 15px;
+        width: 140px;
+    }
+    .coupons-code-item .center-img{
+        height: 140px;
+    }
+    .coupons-code-item.right-action .right-content{
+        padding: 0;
+    }
+    .coupons-code-item.right-action .bottom-action{
+        position: static;
+        width: 100%;
+        height: auto;
+        border-left: 0;
+        border-top: 2px dotted #dddddd;
+        margin: 10px 0 0 0;
+        padding: 10px 0 0 0;
+    }
+    .coupons-code-item.right-action .lbl-work{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .coupons-code-item.right-action .bottom-action .btn-view-coupon{
+        position: static;
+        width: auto;
+        padding: 5px 10px;
+    }
+    .coupons-code-item.right-action .bottom-action .btn-view-coupon:active{
+        margin-top: 2px;
+    }
+    .mod-brand-alphabetical .list-brand > .grid_3{
+        width: 47.22222222222222%;
+    }
+    .mod-grp-coupon .wrap-for-res,
+    .mod-grp-coupon .brand-top-info .grid_7{
+        width: 97.22222222222222%;
+    }
+    .mod-grp-coupon .wrap-for-res{
+        margin-bottom: 20px;
+    }
+    .mod-brand-detail-2 .mod-grp-coupon .list-coupon{
+        margin-left: 0;
+    }
+    .mod-brand-detail-2 .coupon-item{
+        margin-left: 0;
+        width: 100%;
+    }
+    .mod-brand-detail-5 .brand-top-info > .grid_3,
+    .mod-brand-detail-5 .brand-top-info > .grid_9{width: 97.22222222222222%;}
+    .article-item .wrap-date-post{
+        width: 90px;
+    }
+    .article-item .date{
+        font-size: 85%;
+    }
+    .article-item .wrap-date-post {
+        margin-right: 15px;
+    }
+    .mod-blog-detail .author-avatar{
+        float: none;
+        text-align: center;
+        display: block;
+        margin: 0 0 15px 0;
+    }
+    .mod-related-posts .post-item .thumb-left{
+        display: block;
+        float: none;
+        width: auto;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+    .form-post-cm .lbl-wrap-text{
+        width: 100%;
+        margin-left: 0;
+    }
+    .mod-related-posts .grp-nav .btn-nav{
+        line-height: 28px;
+    }
+    .mod-register .left-form,
+    .mod-register .right-connect,
+    .mod-register .right-create-acc{
+        width: 100%;
+        margin: 0;
+    }
+    .mod-register .left-form{
+        padding-bottom: 20px;
+    }
+    .mod-register .wrap-form-reg .line-sep{
+        display: none;
+    }
+    .pagination .page-num{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .pagination .txt-nav{
+        padding: 4px;
+    }
+    .pagination .txt-nav > span{
+        display: none;
+    }
+    .block.tab-style-2 .wrap-tab .lbl-tab{
+        padding: 5px 8px;
+    }
+}
+@media screen and (max-device-width:  320px), screen and (max-width:  320px) {
+    .alert-w{background: #68198f}
+    .range-days-left .filter-days{
+        width: 50%;
+    }
+    .mod-brand-alphabetical .link-alpha-link .grid_3{
+        width: 97.22222222222222%;
+    }
+}

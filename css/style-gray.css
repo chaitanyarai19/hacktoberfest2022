@@ -1,0 +1,391 @@
+a{
+	color: #888888;
+}
+/*		Theme-gray     */
+.gray .container-page{
+	background:  url(../images/pattern.png) ;
+}
+.gray .container-page.login{
+	background:#fff;
+}
+/*	header   */
+.gray .mod-header{
+	background-color: #fff;
+	box-shadow:0 5px 3px rgba(0, 0, 0, 0.2); 
+}
+.gray #main-menu > li{
+    border-left-color:  #BBBBBB;
+}
+.gray #main-menu > li.has-sub > a:before{
+    border-color: #777777 transparent transparent transparent;
+}
+.gray #main-menu > li.active > a,
+.gray #main-menu > li > a:hover{
+    color: #04BFBF;
+}
+.gray #main-menu > li.has-sub:after,
+.gray .sub-menu > li > a,
+.gray #main-menu > li.has-sub:hover,
+.gray #main-menu > li > .sub-menu{
+    background: #eee;
+}
+.gray #main-menu > li.has-sub:hover > a{
+    color: #04BFBF;
+}
+.gray #main-menu > li.has-sub:hover,
+.gray #main-menu > li > .sub-menu,
+.gray .select-cate .dropdown-cate{
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+.gray .sub-menu > li > a:hover{
+    background-color: #fff;
+}
+.gray .sub-menu > li > a:hover,
+.gray .select-cate .dropdown-cate{
+	color: #666;
+}
+/*	search	*/
+.gray .mod-filter .txt-search{
+	background-color: #EEE;
+	border:1px solid transparent;
+}
+.gray .mod-search .keyword-search{
+	border:1px solid transparent;
+	background-color: #fff;
+}
+.gray .mod-filter .txt-search{
+	padding:4px 40px 3px 10px;
+}
+.mod-filter .txt-search:focus{
+	box-shadow: none;
+}
+.gray .mod-filter .txt-search:focus,
+.gray .mod-email-newsletter .wrap-email input:focus,
+.gray .mod-search .keyword-search:focus{
+	border-color: #22BFBF;
+	color: #777;
+}
+.mod-email-newsletter .wrap-email input:focus,
+.gray .mod-search .keyword-search:focus{
+	box-shadow: none;
+}
+/*	filter   */
+.gray .range-days-left .lbl-day{
+	color: #777;
+}
+.gray .select-cate .dropdown-cate,.gray .select-cate .show-val,.gray .select-cate .wrap-list-cate a{
+	background-color: #eee;
+}
+.gray .select-cate .wrap-list-cate a:hover{
+	background-color: #fff;
+}
+.gray .noUi-target{
+	border-color: #eee;
+}
+.gray .noUi-background{
+	background-color: #EEE;
+}
+.gray .noUi-connect,.gray .noUi-handle{
+	background-color: #17BFBF;
+}
+/*	allType   */
+/*.gray .select-cate .dropdown-cate{
+	box-shadow:0 0 5px 2px rgba(0,0,0,0.4);
+}*/
+/*	subscribbe*/
+.gray .mod-email-newsletter .wrap-form{
+	background-color: #fff;
+}
+.gray .mod-email-newsletter .wrap-email input{
+	background-color: #eee;
+	border:1px solid transparent;
+}
+/*.gray .mod-email-newsletter .wrap-email input:focus{}*/
+
+/*	footer   */
+.gray .mod-footer .footer-top{
+	padding-top: 60px;
+	margin:0;
+	background: url(../images/bk-footer-dark.png) repeat center center;
+	background-size: cover;
+}
+.gray .mod-footer .foot-copyright{
+	background-color: #000;
+}
+.gray  .mod-footer .footer-top:after{
+	display: none;
+}
+.gray .block .title-block{
+	color: #04BFBF;
+}
+.gray .wrap-brand-logo{
+	display: table;
+	height: 100px;
+}
+.gray .wrap-brand-logo .brand-logo{
+	display: table-cell;
+	vertical-align: middle;
+}
+.gray .mod-grp-coupon .brand-top-info .brand-desc{
+	padding: 0 70px 0 0;
+}
+/*	social-link */
+.gray .mod-brand-detail-3 .social-link .fa,
+.gray .mod-footer .social-link ul i.fa{
+	color: #666;
+}
+.gray .mod-brand-detail-3 .social-link .fa:hover,
+.gray .mod-footer .social-link ul i.fa:hover{
+	color: #bbb;
+}
+
+
+/*	products counpon    */
+.gray .coupon-item .coupon-brand{
+		color: #A6A6A6;
+}
+.gray .coupons-code-item .save-price a{
+	color: #878787;
+}
+.gray .coupons-code-item:hover .btn.btn-blue,.gray .coupon-item:hover .btn.btn-blue{
+	background-color: #FFA43E;
+	border-color: #F28200;
+}
+.gray .coupon-item .coupon-content,.gray .coupons-code-item{
+	border-color:transparent;
+	background-color: #fff; 
+}
+.gray .coupon-item:hover .coupon-content,.gray .coupons-code-item:hover{
+	border-color:#FFBE19;
+}
+.gray .img-thumb-center{
+	background-color: #fff;
+}
+.gray .coupon-item .coupon-price{
+	margin-top: 6px;
+}
+.gray .coupon-item .coupon-price:hover{
+    color: #FF8317;
+}
+.gray .coupon-item .btn-take-coupon.dismiss{
+	background-color: #FFBE19;
+	border-bottom-color: #FFBE19;
+}
+.gray .coupon-item .btn-take-coupon.dismiss:hover{
+	background-color: #CC0013;
+	border-bottom-color: #CC0013;
+}
+.gray .brand-item .brand-content,.gray .coupons-code-item .brand-logo{
+	border-color: transparent;
+	background-color: #fff;
+}
+.gray .mod-list-store .wrap-list-store .brand-logo{
+	border-color: transparent;
+	background-color: #fff;
+}
+.gray .mod-list-store .wrap-list-store .brand-logo:hover{
+	border-color: #FFBE19;
+}
+.gray .sidebar .coupons-code-item .brand-logo{
+	background-color: transparent;
+}
+
+.gray .mod-brand-detail-4 .brand-top-info{
+	background-color: #fff;
+}
+.gray .coupon-item .coupon-price{
+	color: #04BFBF;
+}
+/*.gray .coupon-item:hover .coupon-price{
+	color: #FF8317;
+}*/
+/*	logo coupon    */
+.gray .brand-logo{
+	background-color: #fff;
+	text-align: center;
+}
+.gray .brand-desc{
+	padding:20px 0 14px 0;
+}
+/*	popular tag   */
+.gray .btn.btn-gray{
+	background-color: #023550;
+	color: #fff;
+}
+.gray .btn.type-tag:hover{
+	background-color: #023550;
+	color: #07F2DB;
+}
+.gray .btn.type-tag:active{
+	background-color: #023550;
+	color: #07F2DB;
+}
+.gray .btn.type-tag:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #023550;
+}
+.gray .btn.type-tag:hover:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #023550;
+}
+.gray .btn.type-tag:active:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #023550;
+}
+
+/*	login	*/
+.gray.pop-login .mod-register .left-form .input-txt:focus,.gray .mod-register .left-form .input-txt:focus{
+	box-shadow: none;
+}
+.gray .mod-register .title-mod{
+	color: #04BFBF;
+}
+.gray .btn-flat.yellow{
+	background-color: #04BFBF;
+}
+.gray .btn-flat.yellow:hover{
+	background-color: #038C8C;
+}
+.gray .mod-register .left-form .wrap-check a{
+	color: #04BFBF;
+}
+.gray .mod-register .left-form .input-txt:focus{
+	border-color: #04BFBF;
+}
+.gray .mod-register .left-form .wrap-check .iUncheck{
+	background:url(../images/checkbox.png) 0 0;
+}
+.gray .mod-register .left-form .wrap-check .iUncheck:after{
+	background-color: #04BFBF;
+}
+/*	blog   */
+p,.gray .article-item .art-desc{
+	color: #A6A6A6;
+}
+.gray .article-item .wrap-date-post .btn-more{
+	background-color: #023550;
+	color: #fff;
+}
+.gray .article-item .wrap-date-post .btn-more:hover{
+	background-color: #FFBE19;
+}
+.gray .article-item .wrap-date-post .btn-more:active{
+	background-color: #FF8317;
+}
+.gray .article-item .date{
+	background-color: #04BFBF;
+}
+.gray .article-item .date .day,.gray .article-item .date .my{
+	color: #fff;
+}
+.gray .article-item .art-title a{
+	color: #2D4255;
+}
+
+/*	register   */
+.gray .mod-register .link-back{
+	color: #04BFBF;
+}
+.gray .mod-register .link-back .pick-r{
+	border-color:rgba(0, 0, 0, 0) #04BFBF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+/*	my counpons    */
+
+/*	tabs 	*/
+.gray .block.tab-style-2 .wrap-tab .lbl-tab{
+	background-color: #222222;
+	color: #878787;
+}
+.gray .block.tab-style-2 .wrap-tab .lbl-tab.active{
+	background-color: #04BFBF;
+	color: #fff;
+}
+.gray .block.tab-style-2 .title-block{
+	border-bottom-color: #04BFBF
+}
+.gray .btn-discard{
+	color: #666;
+	background-color: #EEEEEE;
+}
+.gray .btn-discard:hover{
+	color: #fff;
+}
+.gray .btn-discard:hover{
+	background-color: #CC0013;
+}
+/*	brand    */
+.gray .mod-brand-alphabetical .head-char{
+	color: #A6A6A6;
+}
+.gray .mod-brand-alphabetical .list-follow a{
+	color: #04BFBF;
+}
+.wrap-list-char a:hover{
+	text-decoration: none;
+	color: #FEBD00;
+}
+.gray .mod-brand-alphabetical .alphabe a{
+	color: #04BFBF;
+}
+.gray .mod-brand-alphabetical .alphabe a.disable{
+	color: #FEBD00;
+}
+/*	brand info   */
+.gray .mod-brand-detail-2 .brand-info-right,.gray .mod-brand-detail-5 .brand-info-right{
+	background-color: #fff;
+}
+.gray .mod-brand-detail-2 .brand-desc .title-desc{
+	color: #04BFBF;
+}
+.gray .btn.btn-blue{
+	background-color: #04BFBF;
+	border-color: #038C8C;
+}
+.gray .btn.btn-blue:hover,
+.gray .btn.btn-blue.hover{
+    background: #FFA43E;
+    border-color: #F28200;
+}
+.gray .btn.btn-blue:active{
+    border-bottom: 0;
+    margin-top: 3px;
+}
+.gray .coupons-code-item.right-action .bottom-action .btn-view-coupon{
+    border-bottom: 2px solid #038C8C;
+}
+.gray .coupons-code-item.right-action:hover .bottom-action .btn-view-coupon{
+    background: #FFA43E;
+    border-color: #F28200;
+}
+.gray .coupons-code-item.right-action .bottom-action .btn-view-coupon:active{
+    border-bottom: 0;
+}
+/*	border-dotted  */
+.gray .mod-brand-detail-2 .count-info,.gray .mod-brand-detail-5 .count-info,
+.gray .coupon-item .coupon-desc,
+.gray .block .title-block{
+	border-color: #888888;
+}
+/*	pagenavigation*/
+
+.gray .pagination .page-num.active,
+.gray .pagination .page-num:hover{
+	border-color: #04BFBF;
+}
+.gray .pagination .page-num.active{
+	background-color: #04BFBF;
+}
+.gray .pagination .page-num a{
+	color: #666;
+}
+.gray .pagination .page-nav{
+	background-color: #eee;
+	border-color: #bbb;
+}
+.gray .pagination .page-nav:hover{
+	border-color: #04BFBF;
+	background-color: #eee;
+}
+.gray .pagination .txt-nav{
+	border-color: #BBBBBB;
+}
+.gray .pagination .txt-nav:hover{
+	border-color: #04BFBF;
+}

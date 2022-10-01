@@ -1,0 +1,271 @@
+
+/*		Theme-Dark     */
+.dark .container-page{
+	background-color: #333;
+}
+/*	header   */
+.dark  #main-menu > li{
+	border-left-color: #525252;
+}
+.dark #main-menu > li.has-sub:after,
+.dark #main-menu > li > .sub-menu,.dark .sub-menu > li > a,
+.dark #main-menu > li.has-sub:hover{
+	background-color: #222;
+}
+.dark .sub-menu > li > a:hover{
+	background-color: #444;
+	color: #fff;
+	box-shadow:0 0 5px 2px rgba(17, 17, 17, 0.4);
+}
+.dark #main-menu > li.has-sub:hover,.dark #main-menu > li > .sub-menu{
+	box-shadow:0 0 5px 2px rgba(17, 17, 17, 0.4);
+}
+.dark .mod-header,.dark .mod-filter{
+	background-color: #000;
+}
+
+/*	search	*/
+.dark .mod-filter .txt-search,.dark .mod-search .keyword-search{
+	background-color: #222;
+	border:1px solid transparent;
+}
+.dark .mod-filter .txt-search{
+	padding:4px 40px 3px 10px;
+}
+
+.dark .mod-filter .txt-search:focus,
+.dark .mod-email-newsletter .wrap-email input:focus,
+.dark .mod-search .keyword-search:focus{
+	border-color: #ffd34e;
+	color: #fff;
+}
+.mod-email-newsletter .wrap-email input:focus,
+.dark .mod-search .keyword-search:focus{
+	box-shadow: none;
+}
+/*	filter   */
+.dark .range-days-left .lbl-day{
+	color: #ababab;
+}
+.dark .select-cate .dropdown-cate,.dark .select-cate .show-val,.dark .select-cate .wrap-list-cate a{
+	background-color: #222;
+}
+.dark .select-cate .wrap-list-cate a:hover{
+	background-color: #444;
+	color: #fff;
+}
+.dark .noUi-target{
+	border-color: #222;
+}
+.dark .noUi-background{
+	background-color: #444;
+}
+/*	allType   */
+.dark .select-cate .dropdown-cate{
+	box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+/*	subscribbe*/
+.dark .mod-email-newsletter .wrap-form{
+	background-color: #222;
+}
+.dark .mod-email-newsletter .wrap-email input{
+	background-color: #444;
+	border:1px solid transparent;
+}
+/*.dark .mod-email-newsletter .wrap-email input:focus{}*/
+
+/*	footer   */
+.dark .mod-footer .footer-top{
+	padding-top: 60px;
+	margin:0;
+	background: url(../images/bk-footer-dark.png) repeat center center;
+	background-size: cover;
+}
+.dark .mod-footer .foot-copyright{
+	background-color: #000;
+}
+.dark  .mod-footer .footer-top:after{
+	display: none;
+}
+.dark .block .title-block{
+	color: #FEBD00;
+}
+.dark .wrap-brand-logo{
+	display: table;
+	height: 100px;
+}
+.dark .wrap-brand-logo .brand-logo{
+	display: table-cell;
+	vertical-align: middle;
+}
+.dark .wrap-brand-logo .brand-logo img{
+	/*vertical-align: middle;*/
+}
+.dark .mod-grp-coupon .brand-top-info .brand-desc{
+	padding: 0 70px 0 0;
+}
+/*	social-link */
+.dark .mod-brand-detail-3 .social-link .fa,
+.dark .mod-footer .social-link ul i.fa{
+	color: #666;
+}
+.dark .mod-brand-detail-3 .social-link .fa:hover,
+.dark .mod-footer .social-link ul i.fa:hover{
+	color: #fff;
+}
+
+
+/*	products counpon    */
+.dark .coupon-item .coupon-content,.dark .coupons-code-item{
+	border-color:transparent;
+	background-color: #262626; 
+}
+.dark .coupon-item:hover .coupon-content,.dark .coupons-code-item:hover{
+	border-color:#FFBE19;
+}
+.dark .img-thumb-center{
+	background-color: #fff;
+}
+.dark .coupon-item .coupon-price{
+	margin-top: 6px;
+}
+.dark .coupon-item .btn-take-coupon.dismiss{
+	background-color: #FFBE19;
+	border-bottom-color: #FFBE19;
+}
+.dark .coupon-item .btn-take-coupon.dismiss:hover{
+	background-color: #CC0013;
+	border-bottom-color: #CC0013;
+}
+.dark .brand-item .brand-content,.dark .coupons-code-item .brand-logo{
+	border-color: transparent;
+	background-color: #fff;
+}
+.dark .mod-list-store .wrap-list-store .brand-logo{
+	border-color: transparent;
+	background-color: #fff;
+}
+.dark .mod-list-store .wrap-list-store .brand-logo:hover{
+	border-color: #FFBE19;
+}
+.dark .sidebar .coupons-code-item .brand-logo{
+	background-color: transparent;
+}
+.dark .btn-discard{
+	background-color: #0099FF;
+}
+.dark .btn-discard:hover{
+	background-color: #CC0013;
+}
+/*	logo coupon    */
+.dark .brand-logo{
+	background-color: #fff;
+	text-align: center;
+}
+.dark .brand-desc{
+	padding:20px 0 14px 0;
+}
+/*	popular tag   */
+.dark .btn.btn-gray{
+	background-color: #000;
+}
+.dark .btn.type-tag:hover{
+	background-color: #FFBE19;
+}
+.dark .btn.type-tag:active{
+	background-color: #FF8317;
+}
+.dark .btn.type-tag:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+}
+.dark .btn.type-tag:hover:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFBE19;
+}
+.dark .btn.type-tag:active:after{
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FF8317;
+}
+
+/*	login	*/
+.dark.pop-login .mod-register .left-form .input-txt:focus,.dark .mod-register .left-form .input-txt:focus{
+	box-shadow: none;
+}
+
+/*	blog   */
+p,.dark .article-item .art-desc{
+	color: #A6A6A6;
+}
+.dark .article-item .wrap-date-post .btn-more{
+	background-color: #000;
+}
+.dark .article-item .wrap-date-post .btn-more:hover{
+	background-color: #FFBE19;
+}
+.dark .article-item .wrap-date-post .btn-more:active{
+	background-color: #FF8317;
+}
+.dark .article-item .date{
+	background-color: #007FFF;
+}
+.dark .article-item .date .day,.dark .article-item .date .my{
+	color: #fff;
+}
+/*	my counpons    */
+
+/*	tabs 	*/
+.dark .block.tab-style-2 .wrap-tab .lbl-tab{
+	background-color: #222222;
+	color: #878787;
+}
+.dark .block.tab-style-2 .wrap-tab .lbl-tab.active{
+	background-color: #FFBE19;
+	color: #fff;
+}
+.dark .block.tab-style-2 .title-block{
+	border-bottom-color: #FFBE19;
+}
+.dark .coupons-code-item .btn-discard,.dark .brand-item .btn-discard{
+	color: #fff;
+}
+/*	brand    */
+.dark .mod-brand-alphabetical .head-char{
+	color: #D4D4D4;
+}
+.dark .mod-brand-alphabetical .list-follow a{
+	color: #666;
+}
+.wrap-list-char a:hover{
+	text-decoration: none;
+	color: #FEBD00;
+}
+/*	brand info   */
+.dark .mod-brand-detail-2 .brand-info-right,.dark .mod-brand-detail-5 .brand-info-right{
+	background-color: #262626;
+}
+/*	border-dotted  */
+.dark .mod-brand-detail-2 .count-info,.dark .mod-brand-detail-5 .count-info,
+.dark .coupon-item .coupon-desc,
+.dark .block .title-block{
+	border-color: #666666;
+}
+
+/*	pagenavigation*/
+.dark .pagination .page-num{
+	border-color: #666;
+}
+.dark .pagination .page-num.active{
+	border-color: #FEBD00;
+}
+.dark .pagination .page-num a{
+	color: #666;
+}
+.dark .pagination .page-num:hover{
+	border-color: #FEBD00;
+}
+.dark .pagination .page-nav{
+	background-color: #666;
+	border-color: #666;
+}
+.dark .pagination .page-nav:hover{
+	border-color: #999;
+	background-color: #999;
+}
