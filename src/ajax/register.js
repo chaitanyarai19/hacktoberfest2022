@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("#register").on("submit", function(e) {
     e.preventDefault();
     $.ajax({
-      url: "api/register.php",
+      url: "src/api/register.php",
       type: "POST",
       data: new FormData(this),
       contentType: false,
@@ -19,6 +19,7 @@ $(document).ready(function() {
             closeOnEsc: false,
             timer: 2000
           });
+          $("#register").trigger("reset");
         } else if (data == "warning") {
           swal({
             title: "Missing Value",
