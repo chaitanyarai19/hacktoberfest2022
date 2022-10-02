@@ -149,6 +149,8 @@
       </div>
 
     </form>
+
+    <?php require_once("component/footer.php"); ?>
                            
               
 
@@ -166,14 +168,7 @@
 
 <script type="text/javascript" src="js/script.js"></script>
 
-<!--[if lte IE 9]>
-<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-<script type="text/javascript" src="js/create.placeholder.js"></script>
-<![endif]-->
 
-<!--[if lte IE 8]>
-<script type="text/javascript" src="js/ie8.js"></script>
-<![endif]-->
 </body>
 
 </html>
