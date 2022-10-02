@@ -22,7 +22,7 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="coupon.html">Coupons</a>
+                                <a href="coupon.php">Coupons</a>
                             </li>
                             <!--<li class="has-sub">
                                 <a href="coupon-code.html">Coupons Code</a>
