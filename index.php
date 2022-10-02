@@ -54,14 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <!--end: .select-cate -->
-                <div class="range-days-left">
-                    <span class="lbl-day">Days left</span>
-                    <span id="sys_min_day" class="min-day"></span>
-                    <div id="sys_filter_days_left" class="filter-days"></div>
-                    <span id="sys_max_day" class="max-day"></span>
-                </div>
-                <!--end: .range-days-left -->
+                
                 <input id="sys_apply_filter" class="btn btn-red type-1 btn-apply-filter" type="button" value="Apply Filter">
             </div>
         </div>
