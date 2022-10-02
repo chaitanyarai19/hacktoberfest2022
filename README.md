@@ -9,9 +9,9 @@
 
  
 
-<h4> </h4>
+<h3> "Shop kro discounts pe hop kro"</h4>
 
-<h4>  </h4>
+<h4>"At CouponDay we provide you amazing offers each day for your unlimited fun at just 5/-Rs" <br> Chill with your friends with CouponDay at amazing slashed prices.  </h4>
 
 <br>
 
