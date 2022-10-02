@@ -5,10 +5,10 @@
                  <div class="grid_3">
                      <div class="company-info">
                          <img src="images/logo-gray.png" alt="CouponDay" />
-                         <p class="rs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud</p>
+                         <p class="rs">"At CouponDay we provide you amazing offers each day for your unlimited fun at just 5/-Rs" <br> Chill with your friends with CouponDay at amazing slashed prices.</p>
                          <p class="rs">
-                             1200 Balh Blah Avenue <br />
-                             Hanoi, Vietnam 12137
+                             Madhya Pradesh,India.
+                             
                          </p>
                      </div>
                  </div>
