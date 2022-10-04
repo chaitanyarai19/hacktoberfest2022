@@ -43,4 +43,24 @@
  <script src="./plugins/tables/js/datatable/dataTables.bootstrap4.min.js"></script>
  <script src="./plugins/tables/js/datatable-init/datatable-basic.min.js"></script>
 
+ <!-- Toastr -->
+ <script src="./plugins/toastr/js/toastr.min.js"></script>
+ <script src="./plugins/toastr/js/toastr.init.js"></script>
+
+ <!-- sweetalert -->
+ <script src="./plugins/sweetalert/js/sweetalert.min.js"></script>
+ <script src="./plugins/sweetalert/js/sweetalert.init.js"></script>
+
+ <script src="./plugins/nouislider/nouislider.min.js"></script>
+ <script src="./plugins/wnumb/wNumb.js"></script>
+ <script src="./js/plugins-init/nouislider-init.js"></script>
+
+ <script src="./plugins/nestable/js/jquery.nestable.js"></script>
+ <script src="./plugins/nestable/js/nestable.init.js"></script>
+
+ <script src="./plugins/jqueryui/js/jquery-ui.min.js"></script>
+ <script src="./plugins/moment/moment.min.js"></script>
+ <script src="./plugins/fullcalendar/js/fullcalendar.min.js"></script>
+ <script src="./js/plugins-init/fullcalendar-init.js"></script>
+
  <script src="./js/dashboard/dashboard-1.js"></script>
