@@ -6,7 +6,7 @@
         <ul class="metismenu" id="menu">
             <li class="nav-label">Dashboard</li>
             <li>
-                <a href="#" aria-expanded="false">
+                <a href="create-coupon.php" aria-expanded="false">
                     <i class="fa fa-plus menu-icon"></i><span class="nav-text">Create Coupon</span>
                 </a>
             </li>
